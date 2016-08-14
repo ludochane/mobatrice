@@ -1,0 +1,16 @@
+import "session_event.proto";
+
+message Event_NotifyUser {
+
+    enum NotificationType {
+        PROMOTED = 1;
+        WARNING = 2;
+    }
+
+    extend SessionEvent {
+        optional Event_NotifyUser ext = 1010;
+    }
+    optional NotificationType type = 1;
+    optional string warning_reason = 2;
+
+}
