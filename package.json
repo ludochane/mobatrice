@@ -6,8 +6,17 @@
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
+    "buffer": "^4.9.0",
+    "bytebuffer": "5.0.1",
     "protobufjs": "5.0.1",
     "react": "15.2.1",
-    "react-native": "0.31.0"
+    "react-native": "0.31.0",
+    "react-native-protobuf": "5.0.1",
+    "react-native-tcp": "2.0.1",
+    "socket.io-client": "^1.4.8"
+  },
+  "browser": {
+    "fs": "react-native-fs",
+    "path": false
   }
 }

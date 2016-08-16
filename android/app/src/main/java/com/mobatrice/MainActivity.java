@@ -1,6 +1,7 @@
 package com.mobatrice;
 
 import com.facebook.react.ReactActivity;
+import com.peel.react.TcpSocketsModule;
 
 public class MainActivity extends ReactActivity {
 
